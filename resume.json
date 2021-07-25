@@ -131,19 +131,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
       "institution": "National University of Computer and Emerging Sciences",
@@ -179,47 +166,73 @@
       "summary": "A speed programming competition of national level"
     }
   ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
-        "HTML",
-        "CSS",
+        "HTML",,
         "Javascript"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Software Architecture",
+      "level": "Advanced",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Design-patterns",
+        "Distributed systems",
+        "Scalability",
+        "Maintainability"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Advanced",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "level": "Advanced",
+      "keywords": [
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Urdu",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Home improvements & engineering",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Plumbing",
+        "Electric-appliances",
+        "Civil engineering"
+      ]
+    },
+    {
+      "name": "Software based home solutions",
+      "keywords": [
+        "IoT",
+        "Home-server",
+        "plex",
+        "raspberry-pi"
+      ]
+    },
+    {
+      "name": "Watching documentaries",
+      "keywords": [
+        "Idiocracy",
+        "Lord-of-the-rings",
+        "movies",
+        "documentaries"
       ]
     }
   ],
