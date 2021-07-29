@@ -7,7 +7,7 @@
     "email": "amirali.jiwani89@gmail.com",
     "phone": "(0092) 345-2446686",
     "website": "https://www.linkedin.com/in/amiralijiwani/",
-    "summary": "A software enthusiast.\n\nI have been working as a developer for around a decade. During this time, I have got a chance to visit various domains and technologies -- Which helped in shaping my self on how I think and work now.\n\nI like to create software and helping other developers like me around. Recently have gained interest in making more layman talks than the development intensive, as I believe everyone attached to a concept should have a right to understand it in complete and concise way.\n\nSome recent technologies I have been working are NodeJS, React, Docker, Kubernetes, Electron and other of such kind. My main focus is towards the problem solving, irrespective of the platform.",
+    "summary": "A software enthusiast.\n\nI have been working as a developer for around a decade. During this time, I have got a chance to visit various domains and technologies -- Which helped in shaping my self on how I think and work now.<br /><br />I like to create software and helping other developers like me around. Recently have gained interest in making more layman talks than the development intensive, as I believe everyone attached to a concept should have a right to understand it in complete and concise way.<br /><br />Some recent technologies I have been working are NodeJS, React, Docker, Kubernetes, Electron and other of such kind. My main focus is towards the problem solving, irrespective of the platform.",
     "location": {
       "address": "A1-17-03, Vista Komanwel A, Jalan Jalil Perkasa 19",
       "postalCode": "57000",
@@ -31,6 +31,7 @@
   "work": [
     {
       "name": "SEEK",
+      "company": "SEEK",
       "location": "Kuala Lumpur, Malaysia",
       "description": "Solving the problem of connecting the right candidate to the needful hirers",
       "position": "Software Engineering Manager",
@@ -123,10 +124,10 @@
         "Created, architected and maintained a home grown idea that later shifted to become Garfield's official game, known as Feed Garfield. The internal project name was Candy Pot. It was a team effort.",
         "Created, architected and maintained an idea in collaboration with our partner. It was a video and audio processing app; These were early days when snapchat didn't existed; The project was named Gulf Talk.",
         "Worked on an aggregator banking solution known as Mobank for UK based banks. Clients were able to control their various accounts through this app.",
-        "Pioneered the space of Windows 8 initial launching apps for Microsoft Singapore;\nSome of them were\n-CNA\n-DBS Bank Singapore\nThe Straits Times Singapore\n",
+        "Pioneered the space of Windows 8 initial launching apps for Microsoft Singapore;<br />Some of them were<br />-CNA<br />-DBS Bank Singapore<br />The Straits Times Singapore",
         "Worked on various 2d and 3d games.",
         "Used and improved Cocos2dx platform to flourish 2d games on cross platform technologies.",
-        "Written several frameworks my self and opensourced it later to help the community; To mention some:\n-EasyNDK-for-cocos2dx\n-Easy-CURL-for-PHP",
+        "Written several frameworks my self and opensourced it later to help the community; To mention some:<br />-EasyNDK-for-cocos2dx<br />-Easy-CURL-for-PHP",
         "Gelled along with various individual contributors to help organization meet its financial goal and beyond.",
         "Presented learnings and findings at various university events and global technology events."
       ]
@@ -134,7 +135,8 @@
   ],
   "education": [
     {
-      "institution": "National University of Computer and Emerging Sciences",
+      "institution": "FAST - NUCES",
+      "name": "National University of Computer and Emerging Sciences",
       "url": "http://khi.nu.edu.pk",
       "area": "Computer Science",
       "studyType": "Bachelor",
