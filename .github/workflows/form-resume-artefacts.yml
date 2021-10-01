@@ -1,0 +1,23 @@
+name: Form resume artefacts
+
+on:
+  push:
+    branches:
+      - get-resume-at-par
+      
+jobs:
+  Forms-Resume-To-Share:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Setup node 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Sets up `resume` cli with `flat` theme
+        run: npm install resume-cli@3.0.5 jsonresume-theme-flat
+      - name: Tries to export resume in `pdf` format
+        run: node node_modules/resume-cli/build/main.js export resume.pdf --format pdf  --theme flat
+      - name: Temporary uploads the formed artefact
+        run: sudo apt-get install -y curl && curl --upload-file ./resume.pdf https://transfer.sh/resume.pdf
