@@ -15,9 +15,14 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - name: Sets up `resume` cli with `flat` theme
-        run: npm install resume-cli@3.0.5 jsonresume-theme-flat
-      - name: Tries to export resume in `pdf` format
-        run: node node_modules/resume-cli/build/main.js export resume.pdf --format pdf  --theme flat
-      - name: Temporary uploads the formed artefact
-        run: sudo apt-get install -y curl && curl --upload-file ./resume.pdf https://transfer.sh/resume.pdf
+      - name: Install the dependencies
+        run: npm install
+      - name: Validates the resume data
+        run: node node_modules/resume-cli/build/main.js validate
+      - name: Generates the static resume bundles for web and pdf
+        run: node helper_scripts/generate_for_themes.js ./
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
