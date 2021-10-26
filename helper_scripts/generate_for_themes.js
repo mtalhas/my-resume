@@ -15,7 +15,8 @@ const themesToLoad = [
     "kwan",
     "stackoverflow",
     "spartan",
-    "class"
+    "class",
+    "caffeine"
 ];
 
 // Generate theme based static and pdf resumes
