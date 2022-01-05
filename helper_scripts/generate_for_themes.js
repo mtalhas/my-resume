@@ -16,7 +16,10 @@ const themesToLoad = [
     "stackoverflow",
     "spartan",
     "class",
-    "caffeine"
+    "caffeine",
+    "even",
+    "elegant",
+    "eloquent"
 ];
 
 // Generate theme based static and pdf resumes
