@@ -22,7 +22,7 @@ jobs:
       - name: Generates the static resume bundles for web and pdf
         run: node helper_scripts/generate_for_themes.js ./
       - name: Get the landing page setup in place
-        run: cp ./landing_page/* ./public/*
+        run: cp -a ./landing_page/. ./public/
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
