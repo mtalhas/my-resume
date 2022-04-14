@@ -20,7 +20,7 @@ const themesToLoad = [
     "even",
     "elegant",
     "eloquent",
-    "mocha-responsive",
+    // "mocha-responsive",
     "actual",
     "short",
     "autumn"
