@@ -19,7 +19,11 @@ const themesToLoad = [
     "caffeine",
     "even",
     "elegant",
-    "eloquent"
+    "eloquent",
+    "mocha-responsive",
+    "actual",
+    "short",
+    "autumn"
 ];
 
 // Generate theme based static and pdf resumes
