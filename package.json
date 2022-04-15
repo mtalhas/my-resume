@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "serve-theme": "node ./node_modules/resume-cli/build/main.js serve --theme"
+  },
+  "devDependencies": {
+    "jsdom": "^16.3.0",
+    "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-autumn": "^1.0.1",
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-class": "^0.1.2",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-eloquent": "^4.1.0",
+    "jsonresume-theme-even": "^0.16.1",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-kwan": "^0.0.2",
+    "jsonresume-theme-mocha-responsive": "^1.1.1",
+    "jsonresume-theme-modern": "^0.0.18",
+    "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-slick": "^0.1.16",
+    "jsonresume-theme-spartan": "^0.3.0",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "resume-cli": "^3.0.5",
+    "underscore.string": "^3.3.5"
+  },
+  "dependencies": {
+    "puppeteer": "^13.5.1"
+  }
+}

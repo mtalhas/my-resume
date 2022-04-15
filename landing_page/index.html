@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <style>
+      .grid-container {
+        display: grid;
+        /* grid-template-columns: auto auto auto; */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+        /* background-color: #2196f3; */
+        /* padding: 10px; */
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-gap: 15px; 
+        overflow: hidden;
+      }
+      .grid-item:nth-of-type(3n) {
+        grid-column: span 2;
+      }
+
+      .grid-item:nth-of-type(5n) {
+        grid-row: span 2;
+      }
+
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 40px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .grid-img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        <a href="out_flat.html"
+          ><img src="./img/flat.png" class="grid-img" />flat</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_slick.html"
+          ><img src="./img/slick.png" class="grid-img" />slick</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_paper.html"
+          ><img src="./img/paper.png" class="grid-img" />paper</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_kendall.html"
+          ><img src="./img/kendall.jpg" class="grid-img" />kendall</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_modern.html"
+          ><img src="./img/modern.png" class="grid-img" />modern</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_kwan.html"
+          ><img src="./img/kwan.png" class="grid-img" />kwan</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_class.html"
+          ><img src="./img/class.png" class="grid-img" />class</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_spartan.html"
+          ><img src="./img/spartan.png" class="grid-img" />spartan</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_stackoverflow.html"
+          ><img
+            src="./img/stackoverflow.png"
+            class="grid-img"
+          />stackoverflow</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_caffeine.html"
+          ><img src="./img/caffeine.png" class="grid-img" />caffeine</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_even.html"
+          ><img src="./img/even.png" class="grid-img" />even</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_elegant.html"
+          ><img src="./img/elegant.png" class="grid-img" />elegant</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_eloquent.html"
+          ><img src="./img/eloquent.png" class="grid-img" />eloquent</a
+        >
+      </div>
+      <!-- <div class="grid-item">
+        <a href="out_mocha-responsive.html"
+          ><img src="./img/mocha-responsive.webp" class="grid-img" />mocha responsive</a
+        >
+      </div> -->
+      <div class="grid-item">
+        <a href="out_actual.html"
+          ><img src="./img/actual.png" class="grid-img" />actual</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_autumn.html"
+          ><img src="./img/autumn.png" class="grid-img" />autumn</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="out_short.html"
+          ><img src="./img/short.webp" class="grid-img" />short</a
+        >
+      </div>
+    </div>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+  </body>
+</html>

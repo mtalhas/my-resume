@@ -1,0 +1,30 @@
+name: Form resume artefacts
+
+on:
+  push:
+    branches:
+      - get-resume-at-par
+      
+jobs:
+  Forms-Resume-To-Share:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Setup node 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install the dependencies
+        run: npm install
+      - name: Validates the resume data
+        run: node node_modules/resume-cli/build/main.js validate
+      - name: Generates the static resume bundles for web and pdf
+        run: node helper_scripts/generate_for_themes.js ./
+      - name: Get the landing page setup in place
+        run: cp -a ./landing_page/. ./public/
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
