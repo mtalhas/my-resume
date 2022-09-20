@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "serve-theme": "node ./node_modules/resume-cli/build/main.js serve --theme"
+    "serve-theme": "node ./node_modules/resume-cli/build/main.js serve --theme",
+    "export-html-theme": "node ./node_modules/resume-cli/build/main.js export resume.html --format html --theme",
+    "export-pdf-theme": "node ./node_modules/resume-cli/build/main.js export resume.pdf --format pdf --theme"
   },
   "devDependencies": {
     "jsdom": "^16.3.0",
