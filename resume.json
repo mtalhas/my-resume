@@ -5,15 +5,15 @@
     "label": "Software Craftsman",
     "picture": "https://en.gravatar.com/userimage/16232986/5cc37ef158c48a160aa2df2813e40336.jpg?size=400",
     "email": "amirali.jiwani89@gmail.com",
-    "phone": "(0092) 345-2446686",
+    "phone": "(0066) 922381171",
     "website": "https://www.linkedin.com/in/amiralijiwani/",
-    "summary": "A software enthusiast.\n\nI have been working as a developer for around a decade. During this time, I have got a chance to visit various domains and technologies -- Which helped in shaping my self on how I think and work now.\n\nI like to create software and helping other developers like me around. Recently have gained interest in making more layman talks than the development intensive, as I believe everyone attached to a concept should have a right to understand it in complete and concise way.\n\nSome recent technologies I have been working are NodeJS, React, Docker, Kubernetes, Electron and other of such kind. My main focus is towards the problem solving, irrespective of the platform.",
+    "summary": "A software enthusiast.<br /><br />I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.<br /><br />I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.<br /><br />Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.",
     "location": {
-      "address": "A1-17-03, Vista Komanwel A, Jalan Jalil Perkasa 19",
-      "postalCode": "57000",
-      "city": "Bukit Jalil",
-      "countryCode": "MY",
-      "region": "Kuala Lumpur"
+      "address": "Room 262, floor 18th, 53 Sukhumvit 71 Rd, Phra Khanong Nuea",
+      "postalCode": "10110",
+      "city": "Bangkok",
+      "countryCode": "TH",
+      "region": "Watthana"
     },
     "profiles": [
       {
@@ -30,6 +30,52 @@
   },
   "work": [
     {
+      "name": "Agoda",
+      "company": "Agoda",
+      "location": "Bangkok, Thailand",
+      "description": "Tagline: Less Hassle, More Travel.",
+      "position": "Software Engineering Manager",
+      "url": "https://www.agoda.com/",
+      "startDate": "2022-03-14",
+      "summary": "Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive",
+      "highlights": [
+        "Working with teams to migrate long-running legacy systems to a newer and a better stack",
+        "Keeping track of the learning abilities of my team so that they can progress in their respective careers and interests",
+        "Having 1:1s to shape up the team culture and align them with essential matters at the organization",
+        "Build a mindset and culture of quality first; Owning our stuff and converting them to quality artefacts and systems",
+        "Help the organization envision what moving away from legacy could mean and preach the benefits within the team(s)",
+        "Help the team understand Agility at work and take them through ceremonies; This helps the team give their best following sprints",
+        "Making an effort around organizational values, so it lives within the team and work we do."
+      ]
+    },
+    {
+      "name": "Gaditek",
+      "company": "Gaditek",
+      "location": "Karachi, Pakistan",
+      "description": "Gaditek falls under Disrupt.com group; Making electronic products for individuals around the world, from the developers around the world",
+      "position": "Software Engineering Manager",
+      "url": "https://www.gaditek.com/",
+      "startDate": "2021-03-29",
+      "endDate": "2022-03-02",
+      "summary": "Provided leadership across the engineering organization for the aspects of hiring, processes, architecture, grooming individuals and solving complex problems",
+      "highlights": [
+        "Introduced a hiring process and its custodianship (aka The Hiring Squad!)",
+        "Enabled the eco-system of documentation keeping and taking tools along with helping the team to use them day-in-day-out",
+        "Conducted 1:1s with team members to keep their inspirations and motivations up",
+        "Helped to bootstrap various products for a quick test with the upcoming consumer markets for the organization",
+        "Been a part of the team and the solution for complex problems like NotificationCenter, Auth provider selection and payment gateway solution",
+        "Created and vocalized a process of hiring interns and turning them into fellow beings",
+        "Led and represented the engineering department of the organization",
+        "Proactively participated in converting an old-school organization to an organization with agility",
+        "Helped and created career progression for various individuals in the organization",
+        "Proactively involved me with HR to discuss and demystify challenging problems",
+        "Introduced and have been the most potent catalyst in changing our product platform to be the cross-platform product",
+        "Enabled ways to bring in new dimensions to the product evolution, which were held back because of the absence of engineering leadership",
+        "Focus on quality deliverables -- Provided guidance to bring in an appropriate SDLC",
+        "I got involved and got my hands dirty with architecture decisions at various organizational levels"
+      ]
+    },
+    {
       "name": "SEEK",
       "company": "SEEK",
       "location": "Kuala Lumpur, Malaysia",
@@ -40,18 +86,18 @@
       "endDate": "2021-03-31",
       "summary": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
       "highlights": [
-        "Contributed to SEEKs overall product & technology strategy and aligning systems with that strategy.",
-        "Ensured that systems are fit for purpose, well architected and follow current SEEK development practices.",
-        "Maintained platform health, by ensuring that our systems are secure, reliable, resilient and cost effective.",
-        "Drove customer focus to ensure that we are delivering great outcomes for our customers.",
-        "Commenced and maintained a high performing team culture that values collaboration, learning and continual improvement.",
-        "Acted as an enabler; Growing the technical skills and leadership capabilities of my team through coaching and mentoring. This involves having 1:1s with my team mates.",
-        "Lead by example; Which required me to get my hands dirty when the need is there.",
-        "Unblocked the team with what ever it took, having the complete ownership in the matters of maintaining healthy teams.",
-        "Celebrated successes and learnt from the failures; And propogated the culture through the teams and examplified it for the rest of the organization.",
-        "Paired with the Pricipal Engineer of the team, to understand the climate and the problems of the team.",
-        "Participated in and retroed the core hiring process through centralized hiring squad in the organization.",
-        "Helped the org, to move fast to the eco system of global products; Away from the local products which we were dealing with since past 25+ years"
+        "Contributed to SEEKs overall product & technology strategy and aligned systems with that strategy",
+        "Ensured that systems were fit for purpose, well-architected and followed current SEEK development practices",
+        "Maintained platform health by ensuring that our systems are secure, reliable, resilient and cost-effective",
+        "Drove customer focus to ensure that we deliver excellent outcomes for our customers",
+        "Commenced and maintained a high performing team culture that values collaboration, learning and continual improvement",
+        "Acted as an enabler; Grew my team's technical skills and leadership capabilities through coaching and mentoring. This involves having 1:1s with my teammates",
+        "Lead by example, Which required me to get my hands dirty when needed",
+        "Unblocked the team with whatever it took, having complete ownership of maintaining healthy teams",
+        "Celebrated successes and learnt from the failures; propagated the culture through the teams and exemplified it for the rest of the organization",
+        "Paired with the Principal Engineer of the team to understand the climate and the team's problems",
+        "Participated in and retro-ed the core hiring process through a centralized hiring squad",
+        "Helped the org to move fast to the ecosystem of global products; Away from the local products which we have been dealing with for the past 25+ years"
       ]
     },
     {
@@ -65,15 +111,17 @@
       "endDate": "2020-01-01",
       "summary": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
       "highlights": [
-        "Been the catalyst for transforming the organization.",
-        "Performed the duties as the JavaScript coach for the organization.",
-        "Advocated for, and implemented software best practices.",
-        "Been the communicator for various teams to maintain their health; Some times preached the organization values.",
-        "Participated as a core in hiring new and experienced talents.",
-        "Propagated automation as a culture rather an option.",
-        "Moved legacy code and data to cloud via lift & shift, green field and brown field methodologies.",
-        "Performed the duties of deciding and validating sensible defaults for the organization.",
-        "Pushed cloud first approach in the org, living in an environment of Infra ops."
+        "Been the catalyst for transforming the organization",
+        "Performed the duties as the JavaScript coach for the organization",
+        "Advocated for and implemented software best practices",
+        "Have been the communicator for various teams to maintain their health; sometimes preached the organization's values",
+        "Participated as a core in hiring new and experienced talents",
+        "Propagated automation as a culture rather than an option",
+        "Moved legacy code and data to cloud via lift & shift, greenfield and brownfield methodologies",
+        "Performed the duties of deciding and validating sensible defaults for the organization",
+        "Pushed cloud-first approach in the org, living in an environment of Infra ops",
+        "With the help of fellow architects, I invested time in a flourishing framework of single identity throughout SEEK systems; We did this through educating, enabling, and supporting the needful tools for the teams",
+        "Created several SDKs for a single identity solution within Seek with complete automation and tests. Later helped teams adopt them into various systems"
       ]
     },
     {
@@ -87,11 +135,14 @@
       "endDate": "2018-01-01",
       "summary": "We are Exact. We make smart business software. We are entrepreneurial and dream big, just like you. We help and encourage anyone we work with to always be the best version of themselves.",
       "highlights": [
-        "Helped to come up with an end-to-end pipeline to build and release the product.",
-        "Performed various tasks including coding, building, testing, releasing and debugging the product.",
-        "Made massive use of automation, including development and in release cycles.",
-        "Helped to produce tools that are helpful during the lifecycle of the product. Usually as a need to support the product.",
-        "Helped POC the product initially with our customers to set up our product owner for the success of the product."
+        "Helped to come up with an end-to-end pipeline to build and release the product",
+        "Performed various tasks, including coding, building, testing, releasing and debugging the product",
+        "Made massive use of automation, including development and release cycles",
+        "Helped to produce tools that are helpful during the lifecycle of the product. Usually as a need to support the development",
+        "Helped POC the product initially with our customers to set up our product owner for the product's success",
+        "Created a framework single-handedly to help my fellow teammates with the needs of React Navigation and enable them to flourish their work distributedly and without flaws",
+        "Created and open-sourced a library that behaves as a HOC for navigation matters around React space",
+        "Created an in-house tool (based on ElectronJS) for various development teams that helps with the consumption of APIs without open API specs (legacy systems)"
       ]
     },
     {
@@ -105,11 +156,31 @@
       "endDate": "2016-10-01",
       "summary": "Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.",
       "highlights": [
-        "Helped in complete overhaul and rewriting parts of the Albaloo product.",
-        "Added the ability of targetting users through multi communication channels (SMS, emails, mobile notifications etc).",
-        "Helped product with identifying with and implementing the ability of geo fencing the ads in the current platform.",
-        "Introduced a custom framework on top of Laravel's current implementation to support custom JavaScript loading in the layout.",
-        "Initialized and laid the basis for automation in the project; Through simplifying and making some tedious task, process oriented."
+        "Helped in a complete overhaul and rewriting of parts of the Albaloo product",
+        "Added the ability to target users through multi communication channels (SMS, emails, mobile notifications etc.)",
+        "Helped product with identifying with and implementing the ability of geo fencing the ads in the current platform",
+        "Introduced a custom framework on top of Laravel's current implementation to support custom JavaScript loading in the layout",
+        "Initialized and laid the basis for automation in the project, simplifying and making some tedious tasks process-oriented",
+        "Helped teams with mocks to let them produce their artefacts accordingly. Later replaced with the accurate data bounded by the contracts",
+        "Helped in versioning the APIs so that various teams in the organization consume their needed bits and are working harmoniously"
+      ]
+    },
+    {
+      "name": "Experian",
+      "company": "Experian",
+      "location": "Cyberjaya, Malaysia",
+      "description": "I worked on Experian Marketing Suite. It manages marketing campaigns in a cross-channel way. Whether Twitter, Facebook, email, SMS, or other such means, it covers them all.",
+      "position": "Senior Software Developer",
+      "url": "https://www.experian.co.uk",
+      "startDate": "2014-07-01",
+      "endDate": "2015-10-01",
+      "summary": "Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.",
+      "highlights": [
+        "Assisted developers with a better approach to the problem at hand. I have to talk with my Team lead and the Architect to finalise a software architecture decision",
+        "Primarily worked on the architectural aspects of the code, but I sometimes had the requirement to fix bugs and further minor changes",
+        "Got myself certified with CITA-F to get relevant in the architecture escape and software practices",
+        "Helped with adopting EHAB in various parts of our legacy application",
+        "Debugged and fixed various system parts containing loads of stored procedures and complex SQL queries"
       ]
     },
     {
@@ -121,19 +192,19 @@
       "url": "http://pilabs.com/",
       "startDate": "2010-06-01",
       "endDate": "2014-02-01",
-      "summary": "Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have delivered an app to the Microsoft Marketplace, yet our expertise encompasses the breadth of the smartphone ecosystems including iOS, Android and Palm’s WebOS.",
+      "summary": "Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have produced an app for the Microsoft Marketplace. Yet, our expertise encompasses the breadth of the smartphone ecosystems, including iOS, Android and Palm’s WebOS.",
       "highlights": [
-        "This was my earliest position as a technical leader and I myself were going through a major learning.",
-        "Helped organization with various services based project; Dealth with various platforms and technologies.",
-        "Created, architected and maintained a home grown idea that later shifted to become Garfield's official game, known as Feed Garfield. The internal project name was Candy Pot. It was a team effort.",
-        "Created, architected and maintained an idea in collaboration with our partner. It was a video and audio processing app; These were early days when snapchat didn't existed; The project was named Gulf Talk.",
-        "Worked on an aggregator banking solution known as Mobank for UK based banks. Clients were able to control their various accounts through this app.",
-        "Pioneered the space of Windows 8 initial launching apps for Microsoft Singapore; Some of them were CNA, DBS Bank Singapore, The Straits Times Singapore",
-        "Worked on various 2d and 3d games.",
-        "Used and improved Cocos2dx platform to flourish 2d games on cross platform technologies.",
-        "Written several frameworks my self and opensourced it later to help the community; To mention some: EasyNDK-for-cocos2dx, Easy-CURL-for-PHP",
-        "Gelled along with various individual contributors to help organization meet its financial goal and beyond.",
-        "Presented learnings and findings at various university events and global technology events."
+        "This was my earliest position as a technical leader, and I was going through significant learning",
+        "Helped organization with various services-based projects; Dealt with multiple platforms and technologies",
+        "Created, architected and maintained a homegrown idea that later shifted to become Garfield's official game, Feed Garfield. The internal project name was Candy Pot. It was a team effort",
+        "Created, architected and maintained an idea in collaboration with our partner. It was a video and audio processing app; These were early days when Snapchat didn't exist; The project was named Gulf Talk",
+        "Worked on an aggregator banking solution known as Mobank for UK based banks. Clients were able to control their various accounts through this app",
+        "Pioneered the space of Windows 8 initial launching apps for Microsoft Singapore; some were CNA, DBS Bank Singapore, and The Straits Times Singapore",
+        "Worked on various 2d and 3d games",
+        "Used and improved the Cocos2dx platform to flourish 2d games on cross-platform technologies",
+        "Written several frameworks myself and open-sourced them later to help the community; To mention some: EasyNDK-for-cocos2dx, Easy-CURL-for-PHP",
+        "Gelled along with various individual contributors to help the organization meet its financial goal",
+        "Presented learnings and findings at various university events and global technology events"
       ]
     }
   ],
@@ -194,14 +265,46 @@
     },
     {
       "name": "Software Development",
-      "level": "Advanced",
+      "level": "Proficient",
       "keywords": [
+        "Sustainability",
+        "Portability",
+        "Scalability",
+        "Reasonability"
       ]
     },
     {
       "name": "Problem Solving",
       "level": "Advanced",
       "keywords": [
+        "CompetitiveProgramming",
+        "Abstract"
+      ]
+    },
+    {
+      "name": "Draft documentation",
+      "level": "Proficient",
+      "keywords": [
+        "docsify",
+        "Github",
+        "MARP",
+        "Joplin",
+        "MermaidJS",
+        "FormsIO"
+      ]
+    },
+    {
+      "name": "Communication",
+      "level": "Competent",
+      "keywords": [
+        "face-2-face",
+        "emails",
+        "presentations",
+        "conference",
+        "buy-in talks",
+        "negotiations",
+        "layman conversions",
+        "1:1s"
       ]
     }
   ],
@@ -230,7 +333,9 @@
         "IoT",
         "Home-server",
         "plex",
-        "raspberry-pi"
+        "raspberry-pi",
+        "cups",
+        "saned"
       ]
     },
     {
@@ -255,26 +360,138 @@
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "HiringSquadCreation",
+      "description": "A process consisting of humans to derive hiring spirit",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Involves feedback for the candidate, hr and the team all at the same time",
+        "Distributed in nature, different domain people could be indulged at different time to get a streamlined feedback",
+        "Created a dashboard, that helps with feedback collection and process guidlines",
+        "Uses bleeding edge tools like Docsify, NodeJS and FormsIO",
+        "Introduced a model to auto test candidates without human interventions (Codility)",
+        "Enabled team to discuss and create problems near to them to check the ability of candidates to grasp it (Github)",
+        "Helped in creation of relevant job-descriptions; Which talks about the role and kind of individuals we as a team would like to work with"
       ],
       "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
+        "docsify",
+        "Javascript",
+        "forms-io",
+        "hr",
+        "hiring",
+        "team",
+        "dashboard",
+        "codility",
+        "github"
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "startDate": "2021-06-01",
+      "endDate": "2021-11-01",
+      "url": "https://grey-hydrant.surge.sh/",
+      "roles": [
+        "Product owner",
+        "Programmer",
+        "Orchestrator",
+        "Team lead",
+        "Role model"
+      ],
+      "entity": "Gaditek",
+      "type": "application,volunteering,presentation"
+    },
+    {
+      "name": "Websequencediagrams:Docsify",
+      "description": "A plugin to pull in websequencediagrams under docsify web; It is free to use and try, even works async",
+      "highlights": [
+        "Created a plugin that is relevant for all docsify web",
+        "Has a way to load the diagrams async, with a cool loading animation",
+        "Now you don't need to store your images into the repo, rather just text, that could be version controlled",
+        "Uses bleeding edge tools like Docsify, NodeJS",
+        "Has a CI/CD with which any one can use the artefact straight from Github"
+      ],
+      "keywords": [
+        "docsify",
+        "Javascript",
+        "websequencediagrams",
+        "dashboard",
+        "github"
+      ],
+      "startDate": "2020-09-21",
+      "endDate": "2021-12-10",
+      "url": "https://github.com/aajiwani/websequencediagrams-docsify",
+      "roles": [
+        "Product owner",
+        "Programmer",
+        "Orchestrator",
+        "Need generator"
+      ],
+      "entity": "Self",
+      "type": "application"
+    },
+    {
+      "name": "Modernizing Siva",
+      "description": "A monolith legacy system, that is a bread and butter for JobStreet hirers. We were modernizing it to have a custom pipeline and segregated modules so that buildability and modifiability is there.",
+      "highlights": [
+        "Broke the single monolith into 35 submodules, that together forms this powerhouse",
+        "Decoded and scriptified the build process which was just available over a click only in VS 2015",
+        "Introduced buildability for various projects, so that engineers are welcomed to express changes",
+        "Enabled engineers to make changes into various sub-modules creating lead by example kind of framework",
+        "Created CI/CD based on buildkite using Mono framework to support .NET 2.0",
+        "Uses semantic versioning to deliver artefacts"
+      ],
+      "keywords": [
+        "buildkite",
+        "Javascript",
+        ".NET",
+        "CI/CD",
+        "github",
+        "semantic-versioning",
+        "build-ability",
+        "change-ability"
+      ],
+      "startDate": "2020-09-21",
+      "endDate": "2021-12-10",
       "roles": [
         "Team lead",
-        "Designer"
+        "Programmer",
+        "Orchestrator",
+        "Need generator",
+        "Product owner"
       ],
-      "entity": "Smoogle",
+      "entity": "JobStreet",
+      "type": "application"
+    },
+    {
+      "name": "Identity provider SDKs",
+      "description": "Helped with creating SDKs within the organization so that developers are enabled to use the best in class identity services",
+      "highlights": [
+        "Consumed 100+ pages docs and created 8 different SDKs in 8 different languages",
+        "Created world class documentation to use the SDK, instead of reading 100+ pages, usually just 10 lines of code",
+        "Introduced semantic versioning within the SDKs so that change could be well contained and not disastourous",
+        "Lead by example on raising PRs under various systems, so that developers are motivated to do so",
+        "SDKs varied from being old-school (.NET 2.0) to bleeding edge (ReactNative, NodeJS); Same functionality throughout"
+      ],
+      "keywords": [
+        "buildkite",
+        "Javascript",
+        ".NET",
+        "PHP",
+        "Java",
+        "C#",
+        "CI/CD",
+        "github",
+        "semantic-versioning",
+        "build-ability",
+        "change-ability"
+      ],
+      "startDate": "2019-08-01",
+      "endDate": "2020-06-01",
+      "roles": [
+        "Team lead",
+        "Programmer",
+        "Orchestrator",
+        "Need generator",
+        "Product owner",
+        "Architect",
+        "Developer"
+      ],
+      "entity": "Seek",
       "type": "application"
     }
   ],
