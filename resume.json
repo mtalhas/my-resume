@@ -1,30 +1,30 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Amir Ali Jiwani",
-    "label": "Software Craftsman",
-    "picture": "https://en.gravatar.com/userimage/16232986/5cc37ef158c48a160aa2df2813e40336.jpg?size=400",
-    "email": "amirali.jiwani89@gmail.com",
-    "phone": "(0066) 922381171",
-    "website": "https://www.linkedin.com/in/amiralijiwani/",
+    "name": "Muhammad Talha Siddiqui",
+    "label": "Services Consultant",
+    "picture": "https://s.gravatar.com/avatar/e995c3c7d4395ab283924b105fc6f2a2?s=400",
+    "email": "mtalha.dev@gmail.com",
+    "phone": "(0092) 3122853636",
+    "website": "https://www.linkedin.com/in/mtalhas/",
     "summary": "A software enthusiast.<br /><br />I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.<br /><br />I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.<br /><br />Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.",
     "location": {
-      "address": "Room 262, floor 18th, 53 Sukhumvit 71 Rd, Phra Khanong Nuea",
-      "postalCode": "10110",
-      "city": "Bangkok",
-      "countryCode": "TH",
-      "region": "Watthana"
+      "address": "H-202, 2nd Floor, Chapal Super Luxury Apartments, Block-13, Gulistan-e-Johar, Karachi",
+      "postalCode": "75290",
+      "city": "Karachi",
+      "countryCode": "PK",
+      "region": "Pakistan"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "amiralijiwani",
-        "url": "https://www.linkedin.com/in/amiralijiwani/"
+        "username": "mtalhas",
+        "url": "https://www.linkedin.com/in/mtalhas/"
       },
       {
         "network": "Github",
-        "username": "aajiwani",
-        "url": "https://github.com/aajiwani"
+        "username": "mtalhas",
+        "url": "https://github.com/mtalhas"
       }
     ]
   },
@@ -351,11 +351,11 @@
   "references": [
     {
       "name": "Heinrich Rust",
-      "reference": "Amir is surely missed by his team/peers and I think any company would find great benefit with the addition of Amir to their leadership and technical team. Wish you all the best Amir and hope our paths cross again."
+      "reference": "Talha is surely missed by his team/peers and I think any company would find great benefit with the addition of Talha to their leadership and technical team. Wish you all the best Talha and hope our paths cross again."
     },
     {
       "name": "Paul Fitzgerald",
-      "reference": "As a colleague Amir is friendly, personable, has an easy manner and great sense of humour. A clear communicator with a voice for radio, Amir is wise head on young shoulders."
+      "reference": "As a colleague Talha is friendly, personable, has an easy manner and great sense of humour. A clear communicator with a voice for radio, Talha is wise head on young shoulders."
     }
   ],
   "projects": [
