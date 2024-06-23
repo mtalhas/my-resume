@@ -156,17 +156,6 @@ ul {
     ul.two-column li {
       padding-left: 0; }
 
-      
-@page :first {
-  size: A4;
-  margin: 0 5px 30px 5px !important; }
-
-
-@page {
-  size: A4;
-  margin: 30px 5px 30px 5px; }
-
-
 .container {
   padding-top: 20px; }
 
@@ -201,7 +190,7 @@ ul {
 /* Layouts */
 .page {
   background: white;
-  width: 612px;
+  width: 50%;
   min-height: 792px;
   display: block;
   margin: 0 auto;
@@ -215,18 +204,23 @@ ul {
 
 .left-column {
   float: left;
-  width: 160px;
+  width: 22%;
   margin-right: 20px;
   word-wrap: break-word; }
 
 .right-column {
-  width: auto;
+  width: 100%;
   overflow: hidden; }
 
 .item {
   margin-bottom: 15px; }
   .item:last-child {
     margin-bottom: 0; }
+
+.resume-content {
+  display: flex;
+  flex-direction: row;
+}
 
 @media print {
   body {
@@ -245,7 +239,65 @@ ul {
   .work-container .item {
     page-break-inside: auto; }
   .fa-external-link {
-    display: none; } }
+    display: none; }
+  
+  @page :first {
+    size: A4;
+    margin: 0 5px 30px 5px !important; }
+  
+  
+  @page {
+    size: A4;
+    margin: 30px 5px 30px 5px; } 
+  }
+
+@media only screen and (max-width: 600px) {
+  body {margin: 0;}
+  .page {width: auto !important;}
+  .resume-content { flex-direction: column-reverse;}
+  .left-column .right-column {
+    order: initial;
+  }
+  .left-column { width: 100%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 900px) {
+  body{margin: 0;}
+  .page {width: auto !important;}
+  .resume-content { flex-direction: column-reverse;}
+  .left-column .right-column {
+    order: initial;
+  }
+  .left-column { width: 100%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1200px) {
+  body{margin: 0;}
+  .page {width: auto !important;}
+  .resume-content { flex-direction: column-reverse;}
+  .left-column .right-column {
+    order: initial;
+  }
+  .left-column { width: 100%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1201px) {
+  .left-column { width: 60%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1300px) {
+  .left-column { width: 35%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1500px) {
+  .left-column { width: 35%;}
+  .right-column { width: 100%;}
+}
 
 /* Components */
 .info-tag-container {
