@@ -1,0 +1,174 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Rehan Ahmad",
+      "label": "Radiologic Technologist",
+      "picture": "https://en.gravatar.com/userimage/106967094/34bef2786bc0ac7fbb0be1f6de77deec.png",
+      "email": "rehan.zias1995@gmail.com",
+      "emailLink": "mailto:rehan.zias1995@gmail.com",
+      "phone": "(0092) 3322966340",
+      "summary": "As a skilled radiologic technologist, I have experience performing a variety of diagnostic imaging exams, including X-rays, CT scans, MRI scans, and ultrasound. I am proficient in operating imaging equipment, positioning patients for optimal imaging, and ensuring the safety and comfort of patients during exams. I have a strong understanding of radiation safety protocols and am committed to delivering high-quality images that aid in accurate diagnoses and treatment planning. Additionally, I possess excellent communication skills and am able to work collaboratively with healthcare teams to provide exceptional patient care.",
+      "location": {
+        "address": "R-174 Hadiabad Co-Operative Housing Society,Sector 51-A, Scheme-33,Gulshan-e-Maymar Karachi ,Pakistan",
+        "postalCode": "75320",
+        "city": "Karachi",
+        "countryCode": "PK",
+        "region": "Pakistan"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "rehan-ahmad",
+          "url": "https://www.linkedin.com/in/rehan-ahmad-179611202"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Aga Khan University Hospital",
+        "company": "Aga Khan University Hospital",
+        "location": "Karachi, Pakistan",
+        "description": "Tagline: World Class Quality Healthcare. All specialties under one roof.",
+        "position": "Radiographer",
+        "url": "https://hospitals.aku.edu/Pages/default.aspx",
+        "startDate": "2019-02-01",
+        "summary": "Recorded vital statistics and medical history, produced portable X-Rays, positioned patients for procedures, performed CT scans, and prepared examination rooms for subsequent use.",
+        "highlights": [
+          "Recorded patient’s vital statistics, medical history, and current symptoms",
+          "Produced OR and ER portable X-Rays",
+          "Positioned patients for optimal comfort before procedures",
+          "Performed CT scans with and without contrast",
+          "Cleaned and prepared examination rooms for subsequent use"
+        ]
+      },
+      {
+        "name": "Patel Hospital",
+        "company": "Patel Hospital",
+        "location": "Karachi, Pakistan",
+        "description": "Tagline: Despair turns into Hope",
+        "position": "Radiographer",
+        "url": "https://patel-hospital.org.pk",
+        "startDate": "2017-10-01",
+        "endDate": "2019-02-01",
+        "summary": "Performed general routine X-Rays and conducted CT scans with or without contrast to aid in the diagnosis and treatment of medical conditions at Patel Hospital.",
+        "highlights": [
+          "Conducted general routine X-Rays and Portable X-Rays.",
+          "Performed CT Scans with or without contrast."
+        ]
+      },
+      {
+        "name": "Dr Ziauddin Hospital",
+        "company": "Dr Ziauddin Hospital",
+        "location": "Karachi, Pakistan",
+        "description": "Tagline: Loyalty to our customer, patients and the society as our main commitment while serving our people.",
+        "position": "Radiographer",
+        "url": "https://www.ziauddinhospital.com",
+        "startDate": "2015-01-01",
+        "endDate": "2018-12-31",
+        "summary": "Designed and developed user-friendly web interfaces and implemented new features on existing applications. Collaborated with designers and developers to ensure seamless integration and optimized web page load times through efficient coding practices.",
+        "highlights": [
+          "Produced OR and ER portable X-Rays",
+          "Performed CT scan with and without contrast",
+          "Performed MRI screening and Contrast studies",
+          "Performed fluoroscopic procedures"
+        ]
+      }
+    ],
+    "certificates": [
+      {
+      "name": "Radiation protection for Healthcare Professionals session workshop",
+      "date": "2017-02-15",
+      "issuer": "PNRA",
+      "url": "https://www.pnra.org/r-safety.html"
+    },
+    {
+      "name": "Basic Life Support (BLS)",
+      "date": "2016-09-03",
+      "issuer": "American Heart Association",
+      "url": "https://cpr.heart.org/en/cpr-courses-and-kits/healthcare-professional/basic-life-support-bls-training"
+    },
+    {
+      "name": "Diagnostic Services Workshop, Ziauddin Hospital",
+      "date": "2015-01-04",
+      "issuer": "Broadcom",
+      "url": "https://broadcom.com"
+    }
+    ],
+    "skills": [
+      {
+        "name": "Diagnostic imaging",
+        "level": "Expert",
+        "keywords": [
+          "MRI",
+          "CT Scans",
+          "X-Rays",
+          "Computed radiography",
+          "Ultrasound",
+          "Fluoroscopy",
+          "Film evaluation",
+          "Vascular-Interventional Radiology"
+        ]
+      },
+      {
+        "name": "Software tools",
+        "level": "Advanced",
+        "keywords": [
+          "Fuiji",
+          "Agfa",
+          "Kodak",
+          "Computed Radiography",
+          "Digital Radiography",
+          "Microsoft Office",
+          "Cisco Packet Tracer"
+        ]
+      },
+      {
+        "name": "Soft Skills",
+        "level": "Advanced",
+        "keywords": [
+          "Communication",
+          "Attention to detail",
+          "Problem Solving",
+          "Interpersonal Skills",
+          "Time Management",
+          "Interviewing"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Urdu",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Fluent"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Tech tinkering",
+        "keywords": [
+          "Electronics",
+          "DIY",
+          "Photography"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Dr.Ziauddiin University Hospital",
+        "name": "Dr.Ziauddiin University Hospital",
+        "url": "https://www.ziauddinhospital.com",
+        "area": "Medical Technology Radiological Imaging (BSMT)",
+        "studyType": "Bachelors",
+        "startDate": "2019-01-01",
+        "endDate": "2015-01-01"
+      }
+    ],
+    "meta": {
+      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+      "version": "v1.0.0",
+      "lastModified": "2023-03-27T04:00:00"
+    }
+  }

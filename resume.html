@@ -1,0 +1,729 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Muhammad Talha Siddiqui</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+@page {
+  size: A4; }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #56817A; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: auto;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
+
+.references-container .fa {
+  font-size: 14px; }
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header pull-left">
+			        <h1>Muhammad Talha Siddiqui</h1>
+			        <h2>Services Consultant</h2>
+			    </div>
+			    <div class="profile-pic pull-right">
+			        <img src="https://s.gravatar.com/avatar/e995c3c7d4395ab283924b105fc6f2a2?s&#x3D;400" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">H-202, 2nd Floor, Chapal Super Luxury Apartments, Block-13, Gulistan-e-Johar, Karachi<br/>Karachi Pakistan 75290</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-envelope-o"></i>
+					        
+					                <h6 class="info-text">mtalha.dev@gmail.com</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-mobile"></i>
+					        
+					                <h6 class="info-text">(0092) 3122853636</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-desktop"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="https://www.about.me/mtalhas" target="_blank">
+					                        www.about.me/mtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					                        <div class="info-tag-container">
+					                            <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/mtalhas" target="_blank">
+					                                        in/mtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-twitter"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://twitter.com/mdtalhas" target="_blank">
+					                                         mdtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://github.com/mtalhas" target="_blank">
+					                                         mtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div></section>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Web Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Expert</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Python</h6></li>
+					                            <li><h6>Java</h6></li>
+					                            <li><h6>Javascript</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>DevOps</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Terraform</h6></li>
+					                            <li><h6>AWS</h6></li>
+					                            <li><h6>Azure</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Software Architecture</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Scalability</h6></li>
+					                            <li><h6>Modularity</h6></li>
+					                            <li><h6>Resilience</h6></li>
+					                            <li><h6>API design</h6></li>
+					                            <li><h6>Performance</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Software Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Proficient</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Sustainability</h6></li>
+					                            <li><h6>Portability</h6></li>
+					                            <li><h6>Scalability</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Problem Solving</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Troubleshooting</h6></li>
+					                            <li><h6>Root Cause Analysis</h6></li>
+					                            <li><h6>Debugging</h6></li>
+					                            <li><h6>Optimization</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Draft documentation</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Proficient</h4>
+					                    <ul class="minimal">
+					                            <li><h6>docsify</h6></li>
+					                            <li><h6>Github</h6></li>
+					                            <li><h6>MARP</h6></li>
+					                            <li><h6>Joplin</h6></li>
+					                            <li><h6>MermaidJS</h6></li>
+					                            <li><h6>FormsIO</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Communication</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Competent</h4>
+					                    <ul class="minimal">
+					                            <li><h6>face-2-face</h6></li>
+					                            <li><h6>emails</h6></li>
+					                            <li><h6>presentations</h6></li>
+					                            <li><h6>conference</h6></li>
+					                            <li><h6>buy-in talks</h6></li>
+					                            <li><h6>negotiations</h6></li>
+					                            <li><h6>layman conversions</h6></li>
+					                            <li><h6>1:1s</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					        <ul class="minimal">
+					                <li>
+					                    <h6>Urdu <em>(Native speaker)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>English <em>(Fluent)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        </div>
+					            <section class="item">
+					                    <h4 class="bold">Software based home solutions</h4>
+					                    <ul class="minimal">
+					                            <li>Nextcloud</li>
+					                            <li>Odoo</li>
+					                            <li>Kodi</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Watching documentaries</h4>
+					                    <ul class="minimal">
+					                            <li>TED Talks</li>
+					                            <li>Kurzgesagt - in a nutshell</li>
+					                            <li>UiPath</li>
+					                            <li>Robotic Process Automation</li>
+					                            <li>PBS Space Time</li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>            <p class="summary">
+					                I am an experienced IT services consultant with a strong track record in code development, as well as providing operational support and implementation for various projects. With expertise in API management, Java, and Python, I have delivered custom solutions that meet clients&#x27; unique needs. As a result of my attention to detail and problem-solving skills, I have been able to quickly identify and fix defects and respond to production incidents with ease. Additionally, I possess a background in solution architecture and have a deep understanding of the interplay between technology and business needs. My ability to work with cross-functional teams and collaborate effectively enables me to deliver innovative solutions that drive business success.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Architecture In Motion Inc.
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2017</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Senior Services Consultant</h4>
+					
+					            <p class="summary">Successfully implemented Layer7 API Management solution and improved client satisfaction. Developed custom solutions, automated testing, and reduced system downtime by 20%.</p>
+					
+					            <ul>
+					                <li>Led successful implementation of Layer7 API Management solution for a financial institution, resulting in improved system performance and increased client satisfaction.</li>
+					                <li>Developed custom solutions in Python and Java, automate testing and reduce defects, resulting in a 20% reduction in system downtime.</li>
+					                <li>Managed Jira workflows and tickets to improve efficiency and increase productivity, resulting in a 15% increase in team output.</li>
+					                <li>Responded to production incidents and fixed defects within tight deadlines, resulting in a 90% resolution rate within SLA timeframes.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Architecture In Motion Inc.
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2016</span>
+					                        <span class="endDate"> - 08/2017</span>
+					                </h5>
+					            </div>
+					            <h4>API-M Support Consultant</h4>
+					
+					            <p class="summary">Supervised troubleshooting of production issues and renewed infrastructure with software patches. Automated routine tasks using Bash and API Gateway scripting, boosting productivity and efficiency.</p>
+					
+					            <ul>
+					                <li>Supervised troubleshooting with 100% accuracy of production issues and renewed infrastructure with software patches.</li>
+					                <li>Automated routine tasks via Bash and API Gateway scripting for boosting personnel productivity and organization efficiency.</li>
+					                <li>Directed System Administration tasks for the Linux environment and deployed software on Production and Lower Environments.</li>
+					                <li>Setup and off-box application logs to syslog servers.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        GeekUnit Private Limited
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2015</span>
+					                        <span class="endDate"> - 08/2015</span>
+					                </h5>
+					            </div>
+					            <h4>FrontEnd Web Developer</h4>
+					
+					            <p class="summary">Designed and developed user-friendly web interfaces and implemented new features on existing applications. Collaborated with designers and developers to ensure seamless integration and optimized web page load times through efficient coding practices.</p>
+					
+					            <ul>
+					                <li>Designed and developed responsive and user-friendly web interfaces for multiple clients</li>
+					                <li>Implemented new features and functionality on existing web applications using HTML, CSS, and JavaScript</li>
+					                <li>Collaborated with UI/UX designers and backend developers to ensure seamless integration of front-end and back-end code</li>
+					                <li>Optimized web page load times through efficient coding practices and image optimization techniques</li>
+					                <li>Developed and maintained a component library to improve code reusability and consistency</li>
+					                <li>Utilized version control tools such as Git to manage code changes and collaborate with other developers</li>
+					                <li>Kept up-to-date with industry trends and best practices to continuously improve skills and stay current with emerging technologies</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container projects-container">
+					    <div class="title">
+					        <h3>Projects</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Metrolinx Phase I &amp; II Projects
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2021</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed a variety of APIs to interact with backend systems such as fetching tweets from Twitter accounts and retrieving weather data from AccuWeather. These APIs greatly enhanced data accessibility for clients and enabled more streamlined data processing.</li>
+					                <li>Designed and implemented a reverse proxy API to support a new microservices-based architecture for Railway Management System. Increased overall system flexibility and enabling the adoption of new technologies.</li>
+					                <li>Worked closely with clients to identify and prioritize requirements, resulting in the delivery of multiple successful solutions.</li>
+					                <li>Developed a custom, low-code security solution to monitor and mitigate potential threats, ensuring the safety and integrity of sensitive data.</li>
+					                <li>Designed and executed extensive test cases in both Postman and Apache JMeter, identifying and resolving multiple critical issues prior to production deployment.</li>
+					                <li>Quickly and effectively troubleshooted issues in production, reducing downtime by 50% and minimizing the impact on end-users.</li>
+					                <li>Collaborated with cross-functional teams to continuously improve system performance, security and scalability, resulting in increased efficiency and customer satisfaction.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        PCFinancial Phoenix Project
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2019</span>
+					                        <span class="endDate"> - 01/2020</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed Layer7 API Gateway-based services to provide secure APIs for PCFinancial.</li>
+					                <li>Designed high-level architecture for the APIs, considering factors such as scalability, reliability, and maintainability.</li>
+					                <li>Worked closely with cross-functional teams including developers, testers, and business analysts to understand their requirements and ensure successful implementation of the APIs.</li>
+					                <li>Implemented CI/CD pipelines to automate the deployment process, allowing for faster and more frequent releases.</li>
+					                <li>Conducted thorough testing of the APIs using tools such as Postman and Apache JMeter, ensuring high quality and performance.</li>
+					                <li>Leveraged Kubernetes and OpenShift to deploy the APIs and maintain the infrastructure as code.</li>
+					                <li>Followed Secure Software Development LifeCycle practices to ensure the security of the APIs and protect against cyber threats.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Loblaw Enterprise &amp; Identity Access Management Project
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2017</span>
+					                        <span class="endDate"> - 06/2018</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed and implemented policies for securing REST APIs using Layer7 API Gateway, resulting in increased protection against cyber attacks and improved compliance with industry standards.</li>
+					                <li>Collaborated with cross-functional teams to design and deploy microservices architecture, leveraging Layer7 API Gateway and other tools to ensure scalability and high availability of the services.</li>
+					                <li>Designed and implemented custom authentication and authorization policies using Layer7 API Gateway, enabling seamless integration with identity management systems and improving the overall security posture of the organization.</li>
+					                <li>Created and maintained documentation related to API development, policy management and infrastructure design, ensuring that stakeholders had access to accurate and up-to-date information.</li>
+					                <li>Worked with the development team to troubleshoot issues related to API policies and infrastructure, providing timely support and solutions to keep the services up and running smoothly.</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container certificates-container">
+					    <div class="title">
+					        <h3>Certifications</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Broadcom
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="date">09/2023</span>
+					                        </h5>
+					            </div>
+					            <h4>Certified Expert, API Management Implementation 2023 </h4>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Broadcom
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="date">09/2023</span>
+					                        </h5>
+					            </div>
+					            <h4>Proven Professional, API Management Implementation 2023 </h4>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Broadcom
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="date">01/2018</span>
+					                        </h5>
+					            </div>
+					            <h4>Proven Professional, API Management Implementation 2018 </h4>
+					        </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Muhammad Ali Jinnah University
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2017</span>
+					                        <span class="endDate"> - 12/2018</span>
+					                </h5>
+					            </div>
+					            <h4>Masters Computer Science (MSCS)</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Data Warehousing and Mining</li>
+					                <li>Distributed Systems</li>
+					                <li>Design Patterns</li>
+					                <li>Network Simulation</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Muhammad Ali Jinnah University
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2015</span>
+					                        <span class="endDate"> - 12/2016</span>
+					                </h5>
+					            </div>
+					            <h4>Masters Computer Science (MCS)</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Object Oriented Programming</li>
+					                <li>Mobile Computing</li>
+					                <li>Software Architecture</li>
+					                <li>Operating Systems</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        NEDUET
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2010</span>
+					                        <span class="endDate"> - 12/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Bachelors Polymer &amp; Petrochemicals</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Polymer Engineering</li>
+					                <li>Fluid Dynamics</li>
+					                <li>Heat Transfer</li>
+					                <li>Mass Transfer</li>
+					            </ul>
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
