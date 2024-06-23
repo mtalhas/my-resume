@@ -66,6 +66,7 @@ body {
   background: #f8f8f8;
   margin: 50px 0 100px;
   letter-spacing: .3px;
+  text-align: justify;
   color: #39424B; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -155,8 +156,16 @@ ul {
     ul.two-column li {
       padding-left: 0; }
 
+      
+@page :first {
+  size: A4;
+  margin: 0 5px 30px 5px !important; }
+
+
 @page {
-  size: A4; }
+  size: A4;
+  margin: 30px 5px 30px 5px; }
+
 
 .container {
   padding-top: 20px; }
@@ -232,9 +241,9 @@ ul {
     .page .resume-content {
       padding: 0 22px 0 34px; }
   .container {
-    page-break-inside: avoid; }
+    page-break-inside: auto; }
   .work-container .item {
-    page-break-inside: avoid; }
+    page-break-inside: auto; }
   .fa-external-link {
     display: none; } }
 
@@ -265,6 +274,10 @@ ul {
     vertical-align: middle;
     width: 139px; }
 
+.about-container {
+  text-align: left;
+}
+
 .references-container .fa {
   font-size: 14px; }
 
@@ -291,7 +304,7 @@ ul {
 					        <div class="info-tag-container">
 					            <i class="fa fa-map-marker"></i>
 					        
-					                <h6 class="info-text">H-202, 2nd Floor, Chapal Super Luxury Apartments, Block-13, Gulistan-e-Johar, Karachi<br/>Karachi Pakistan 75290</h6>
+					                <h6 class="info-text">Chapal Super Luxury Apartments, Block-13, Gulistan-e-Johar, Karachi<br/>Karachi Pakistan 75290</h6>
 					        </div>
 					        <div class="info-tag-container">
 					            <i class="fa fa-envelope-o"></i>
@@ -492,13 +505,13 @@ ul {
 					            </div>
 					            <h4>Senior Services Consultant</h4>
 					
-					            <p class="summary">Successfully implemented Layer7 API Management solution and improved client satisfaction. Developed custom solutions, automated testing, and reduced system downtime by 20%.</p>
+					            <p class="summary">Successfully implemented Layer7 API Management solution and improved client satisfaction. Developed custom solutions, automated testing, and reduced system downtime.</p>
 					
 					            <ul>
 					                <li>Led successful implementation of Layer7 API Management solution for a financial institution, resulting in improved system performance and increased client satisfaction.</li>
-					                <li>Developed custom solutions in Python and Java, automate testing and reduce defects, resulting in a 20% reduction in system downtime.</li>
-					                <li>Managed Jira workflows and tickets to improve efficiency and increase productivity, resulting in a 15% increase in team output.</li>
-					                <li>Responded to production incidents and fixed defects within tight deadlines, resulting in a 90% resolution rate within SLA timeframes.</li>
+					                <li>Developed custom solutions in Python and Java, automate testing and reduce defects, resulting in reduction of system downtime.</li>
+					                <li>Managed Jira workflows and tickets to improve efficiency and increase productivity, resulting in increase of team output.</li>
+					                <li>Responded to production incidents and fixed defects within tight deadlines, resulting in a high resolution rate within the SLA timeframes.</li>
 					            </ul>
 					        </section>
 					        <section class="item">
@@ -516,7 +529,7 @@ ul {
 					            <p class="summary">Supervised troubleshooting of production issues and renewed infrastructure with software patches. Automated routine tasks using Bash and API Gateway scripting, boosting productivity and efficiency.</p>
 					
 					            <ul>
-					                <li>Supervised troubleshooting with 100% accuracy of production issues and renewed infrastructure with software patches.</li>
+					                <li>Supervised troubleshooting of production issues and renewed infrastructure with software patches.</li>
 					                <li>Automated routine tasks via Bash and API Gateway scripting for boosting personnel productivity and organization efficiency.</li>
 					                <li>Directed System Administration tasks for the Linux environment and deployed software on Production and Lower Environments.</li>
 					                <li>Setup and off-box application logs to syslog servers.</li>
@@ -555,11 +568,31 @@ ul {
 					        <section class="item">
 					            <div class="section-header clearfix">
 					                <h3 class="bold pull-left">
+					                        GoRightFleet XP Project - June 2024
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">04/2024</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed a detailed technical design document outlining system architecture, data flow, and integration points, ensuring a clear roadmap for development.</li>
+					                <li>Collaborated closely with developers to ensure alignment between business objectives and technical implementation. Facilitated regular meetings with the development team to discuss progress, address technical challenges, and provide guidance on best practices.</li>
+					                <li>Played a pivotal role in bridging the gap between business stakeholders and technical teams, ensuring successful implementation of the Admin Portal &amp; Mirlin Connect web applications on time and within budget.</li>
+					                <li>Took charge of creating test cases and leading the Quality Assurance (QA) efforts for the Admin Portal and Mirlin Connect web applications. Oversaw the testing process, identified defects, and worked with the development team to ensure high-quality deliverables.</li>
+					                <li>Collaborated with cross-functional teams to continuously improve system performance, security and scalability, resulting in increased efficiency and customer satisfaction.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
 					                        Metrolinx Phase I &amp; II Projects
 					                </h3>
 					                <h5 class="italic pull-right">
 					                        <span class="startDate">06/2021</span>
-					                        <span class="endDate"> - Present</span>
+					                        <span class="endDate"> - 12/2022</span>
 					                </h5>
 					            </div>
 					
@@ -570,7 +603,7 @@ ul {
 					                <li>Worked closely with clients to identify and prioritize requirements, resulting in the delivery of multiple successful solutions.</li>
 					                <li>Developed a custom, low-code security solution to monitor and mitigate potential threats, ensuring the safety and integrity of sensitive data.</li>
 					                <li>Designed and executed extensive test cases in both Postman and Apache JMeter, identifying and resolving multiple critical issues prior to production deployment.</li>
-					                <li>Quickly and effectively troubleshooted issues in production, reducing downtime by 50% and minimizing the impact on end-users.</li>
+					                <li>Quickly and effectively troubleshooted issues in production, reducing downtime and minimizing the impact on end-users.</li>
 					                <li>Collaborated with cross-functional teams to continuously improve system performance, security and scalability, resulting in increased efficiency and customer satisfaction.</li>
 					            </ul>
 					        </section>
