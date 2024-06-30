@@ -1,359 +1,822 @@
-{
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Muhammad Talha Siddiqui",
-    "label": "Services Consultant",
-    "picture": "https://s.gravatar.com/avatar/e995c3c7d4395ab283924b105fc6f2a2?s=400",
-    "email": "mtalha.dev@gmail.com",
-    "emailLink": "mailto:mtalha.dev@gmail.com",
-    "phone": "(0092) 3122853636",
-    "website": "https://www.about.me/mtalhas",
-    "summary": "I am an experienced IT services consultant with a strong track record in code development, as well as providing operational support and implementation for various projects. With expertise in API management, Java, and Python, I have delivered custom solutions that meet clients' unique needs. As a result of my attention to detail and problem-solving skills, I have been able to quickly identify and fix defects and respond to production incidents with ease. Additionally, I possess a background in solution architecture and have a deep understanding of the interplay between technology and business needs. My ability to work with cross-functional teams and collaborate effectively enables me to deliver innovative solutions that drive business success.",
-    "location": {
-      "address": "Chapal Super Luxury Apartments, Block-13, Gulistan-e-Johar, Karachi",
-      "postalCode": "75290",
-      "city": "Karachi",
-      "countryCode": "PK",
-      "region": "Pakistan"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "mtalhas",
-        "url": "https://www.linkedin.com/in/mtalhas"
-      },
-      {
-        "network": "Twitter",
-        "username": "mdtalhas",
-        "url": "https://twitter.com/mdtalhas"
-      },
-      {
-        "network": "Github",
-        "username": "mtalhas",
-        "url": "https://github.com/mtalhas"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Architecture In Motion Inc.",
-      "company": "Architecture In Motion Inc.",
-      "location": "Karachi, Pakistan",
-      "description": "Tagline: Showing you the way to high ROI, integrated and secure business systems",
-      "position": "Senior Services Consultant",
-      "url": "https://www.iaim.ca/",
-      "startDate": "2017-08-01",
-      "summary": "Successfully implemented Layer7 API Management solution and improved client satisfaction. Developed custom solutions, automated testing, and reduced system downtime.",
-      "highlights": [
-        "Led successful implementation of Layer7 API Management solution for a financial institution, resulting in improved system performance and increased client satisfaction.",
-        "Developed custom solutions in Python and Java, automate testing and reduce defects, resulting in reduction of system downtime.",
-        "Managed Jira workflows and tickets to improve efficiency and increase productivity, resulting in increase of team output.",
-        "Responded to production incidents and fixed defects within tight deadlines, resulting in a high resolution rate within the SLA timeframes."
-      ]
-    },
-    {
-      "name": "Architecture In Motion Inc.",
-      "company": "Architecture In Motion Inc.",
-      "location": "Karachi, Pakistan",
-      "description": "Tagline: Showing you the way to high ROI, integrated and secure business systems",
-      "position": "API-M Support Consultant",
-      "url": "https://www.iaim.ca/",
-      "startDate": "2016-08-01",
-      "endDate": "2017-08-01",
-      "summary": "Supervised troubleshooting of production issues and renewed infrastructure with software patches. Automated routine tasks using Bash and API Gateway scripting, boosting productivity and efficiency.",
-      "highlights": [
-        "Supervised troubleshooting of production issues and renewed infrastructure with software patches.",
-        "Automated routine tasks via Bash and API Gateway scripting for boosting personnel productivity and organization efficiency.",
-        "Directed System Administration tasks for the Linux environment and deployed software on Production and Lower Environments.",
-        "Setup and off-box application logs to syslog servers."
-      ]
-    },
-    {
-      "name": "GeekUnit Private Limited",
-      "company": "GeekUnit Private Limited",
-      "location": "Karachi, Pakistan",
-      "description": "Design, develop and deliver software solutions",
-      "position": "FrontEnd Web Developer",
-      "url": "https://www.geekunit.pk/",
-      "startDate": "2015-01-01",
-      "endDate": "2015-08-31",
-      "summary": "Designed and developed user-friendly web interfaces and implemented new features on existing applications. Collaborated with designers and developers to ensure seamless integration and optimized web page load times through efficient coding practices.",
-      "highlights": [
-        "Designed and developed responsive and user-friendly web interfaces for multiple clients",
-        "Implemented new features and functionality on existing web applications using HTML, CSS, and JavaScript",
-        "Collaborated with UI/UX designers and backend developers to ensure seamless integration of front-end and back-end code",
-        "Optimized web page load times through efficient coding practices and image optimization techniques",
-        "Developed and maintained a component library to improve code reusability and consistency",
-        "Utilized version control tools such as Git to manage code changes and collaborate with other developers",
-        "Kept up-to-date with industry trends and best practices to continuously improve skills and stay current with emerging technologies"
-      ]
-    }
-  ],
-  "certificates": [
-    {
-    "name": "Certified Expert, API Management Implementation 2023",
-    "date": "2023-09-03",
-    "issuer": "Broadcom",
-    "url": "https://broadcom.com"
-  },
-  {
-    "name": "Proven Professional, API Management Implementation 2023",
-    "date": "2023-09-03",
-    "issuer": "Broadcom",
-    "url": "https://broadcom.com"
-  },
-  {
-    "name": "Proven Professional, API Management Implementation 2018",
-    "date": "2018-01-04",
-    "issuer": "Broadcom",
-    "url": "https://broadcom.com"
-  }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Expert",
-      "keywords": [
-        "Python",
-        "Java",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Advanced",
-      "keywords": [
-        "Terraform",
-        "AWS",
-        "Azure"
-      ]
-    },
-    {
-      "name": "Software Architecture",
-      "level": "Advanced",
-      "keywords": [
-        "Scalability",
-        "Modularity",
-        "Resilience",
-        "API design",
-        "Performance"
-      ]
-    },
-    {
-      "name": "Software Development",
-      "level": "Proficient",
-      "keywords": [
-        "Sustainability",
-        "Portability",
-        "Scalability"
-      ]
-    },
-    {
-      "name": "Problem Solving",
-      "level": "Advanced",
-      "keywords": [
-        "Troubleshooting",
-        "Root Cause Analysis",
-        "Debugging",
-        "Optimization"
-      ]
-    },
-    {
-      "name": "Draft documentation",
-      "level": "Proficient",
-      "keywords": [
-        "docsify",
-        "Github",
-        "MARP",
-        "Joplin",
-        "MermaidJS",
-        "FormsIO"
-      ]
-    },
-    {
-      "name": "Communication",
-      "level": "Competent",
-      "keywords": [
-        "face-2-face",
-        "emails",
-        "presentations",
-        "conference",
-        "buy-in talks",
-        "negotiations",
-        "layman conversions",
-        "1:1s"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Urdu",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Software based home solutions",
-      "keywords": [
-        "Nextcloud",
-        "Odoo",
-        "Kodi"
-      ]
-    },
-    {
-      "name": "Watching documentaries",
-      "keywords": [
-        "TED Talks",
-        "Kurzgesagt - in a nutshell",
-        "UiPath",
-        "Robotic Process Automation",
-        "PBS Space Time"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "GoRightFleet XP Project - June 2024",
-      "description": "Led the requirements gathering phase by conducting stakeholder interviews and workshops to understand business needs and challenges. Translated business requirements into technical specifications and design decisions, creating a comprehensive technical design document.",
-      "highlights": [
-        "Developed a detailed technical design document outlining system architecture, data flow, and integration points, ensuring a clear roadmap for development.",
-        "As a business analyst, collaborated closely with developers to ensure alignment between business objectives and technical implementation. Facilitated regular meetings with the development team to discuss progress, address technical challenges, and provide guidance on best practices.",
-        "Played a pivotal role in bridging the gap between business stakeholders and technical teams, ensuring successful implementation of the Admin Portal & Mirlin Connect web applications on time and within budget.",
-        "Took charge of creating test cases and leading the Quality Assurance (QA) efforts for the Admin Portal and Mirlin Connect web applications. Oversaw the testing process, identified defects, and worked with the development team to ensure high-quality deliverables.",
-        "Created and maintained projects and their queries in Azure Devops and collaborated with cross-functional teams to continuously track and report project velocity, burndown, cycle time, bugs and enhancements."
-      ],
-      "keywords": [
-        "Solutions Architecture",
-        "Technical Design Document",
-        "Quality Assurance",
-        "Test Cases",
-        "Businesss Analysis",
-        "Developer Engagement"
-      ],
-      "startDate": "2024-04-15",
-      "url": "https://mirlintechnologies.com"
-    },
-    {
-      "name": "Metrolinx Phase I & II Projects",
-      "description": "Developed and deployed a variety of APIs, resulting in enhanced data accessibility and streamlined data processing for clients. Implemented a reverse proxy API, which increased overall system flexibility and enabled the adoption of new technologies in a microservices-based architecture.",
-      "highlights": [
-        "Developed a variety of APIs to interact with backend systems such as fetching tweets from Twitter accounts and retrieving weather data from AccuWeather. These APIs greatly enhanced data accessibility for clients and enabled more streamlined data processing.",
-        "Designed and implemented a reverse proxy API to support a new microservices-based architecture for Railway Management System. Increased overall system flexibility and enabling the adoption of new technologies.",
-        "Worked closely with clients to identify and prioritize requirements, resulting in the delivery of multiple successful solutions.",
-        "Developed a custom, low-code security solution to monitor and mitigate potential threats, ensuring the safety and integrity of sensitive data.",
-        "Designed and executed extensive test cases in both Postman and Apache JMeter, identifying and resolving multiple critical issues prior to production deployment.",
-        "Quickly and effectively troubleshooted issues in production, reducing downtime and minimizing the impact on end-users.",
-        "Collaborated with cross-functional teams to continuously improve system performance, security and scalability, resulting in increased efficiency and customer satisfaction."
-      ],
-      "keywords": [
-        "API Development",
-        "Backend Systems",
-        "Scalability",
-        "Customer Satisfaction",
-        "Performance Improvement"
-      ],
-      "startDate": "2021-06-01",
-      "endDate": "2022-12-31",
-      "url": "https://www.metrolinx.com"
-    },
-    {
-      "name": "PCFinancial Phoenix Project",
-      "description": "Implemented a secure and reliable API Gateway-based solution, enabling seamless access to data and services. Utilized CI/CD pipelines and thorough testing with Postman and Apache JMeter to ensure high quality and performance of the APIs throughout the deployment process.",
-      "highlights": [
-        "Developed Layer7 API Gateway-based services to provide secure APIs for PCFinancial.",
-        "Designed high-level architecture for the APIs, considering factors such as scalability, reliability, and maintainability.",
-        "Worked closely with cross-functional teams including developers, testers, and business analysts to understand their requirements and ensure successful implementation of the APIs.",
-        "Implemented CI/CD pipelines to automate the deployment process, allowing for faster and more frequent releases.",
-        "Conducted thorough testing of the APIs using tools such as Postman and Apache JMeter, ensuring high quality and performance.",
-        "Leveraged Kubernetes and OpenShift to deploy the APIs and maintain the infrastructure as code.",
-        "Followed Secure Software Development LifeCycle practices to ensure the security of the APIs and protect against cyber threats."
-      ],
-      "keywords": [
-        "IT Operational Support",
-        "API Management",
-        "Java",
-        "Python",
-        "Jira"
-      ],
-      "startDate": "2019-08-01",
-      "endDate": "2020-01-31",
-      "url": "https://www.pcfinancial.ca"
-    },
-    {
-      "name": "Loblaw Enterprise & Identity Access Management Project",
-      "description": "Developed and implemented policy enforcement with Layer7 API Gateway for seamless integration of new services. Leveraged solution architecture expertise to build and manage secure identity management workflows with Layer7 API Gateway.",
-      "highlights": [
-        "Developed and implemented policies for securing REST APIs using Layer7 API Gateway, resulting in increased protection against cyber attacks and improved compliance with industry standards.",
-        "Collaborated with cross-functional teams to design and deploy microservices architecture, leveraging Layer7 API Gateway and other tools to ensure scalability and high availability of the services.",
-        "Designed and implemented custom authentication and authorization policies using Layer7 API Gateway, enabling seamless integration with identity management systems and improving the overall security posture of the organization.",
-        "Created and maintained documentation related to API development, policy management and infrastructure design, ensuring that stakeholders had access to accurate and up-to-date information.",
-        "Worked with the development team to troubleshoot issues related to API policies and infrastructure, providing timely support and solutions to keep the services up and running smoothly."
-      ],
-      "keywords": [
-        "Microservices",
-        "API Management",
-        "SCIM",
-        "Identity Management"
-      ],
-      "startDate": "2017-01-01",
-      "endDate": "2018-06-30",
-      "url": "https://www.loblaw.ca"
-    }
-  ],
-  "education": [
-    {
-      "institution": "Muhammad Ali Jinnah University",
-      "name": "Muhammad Ali Jinnah University",
-      "url": "https://jinnah.edu",
-      "area": "Computer Science (MSCS)",
-      "studyType": "Masters",
-      "startDate": "2017-01-01",
-      "endDate": "2018-12-31",
-      "courses": [
-        "Data Warehousing and Mining",
-        "Distributed Systems",
-        "Design Patterns",
-        "Network Simulation"
-      ]
-    },
-    {
-      "institution": "Muhammad Ali Jinnah University",
-      "name": "Muhammad Ali Jinnah University",
-      "url": "https://jinnah.edu",
-      "area": "Computer Science (MCS)",
-      "studyType": "Masters",
-      "startDate": "2015-01-01",
-      "endDate": "2016-12-31",
-      "courses": [
-        "Object Oriented Programming",
-        "Mobile Computing",
-        "Software Architecture",
-        "Operating Systems"
-      ]
-    },
-    {
-      "institution": "NEDUET",
-      "name": "NED University of Engineering & Technology",
-      "url": "https://www.neduet.edu.pk",
-      "area": "Polymer & Petrochemicals",
-      "studyType": "Bachelors",
-      "startDate": "2010-01-01",
-      "endDate": "2013-12-31",
-      "courses": [
-        "Polymer Engineering",
-        "Fluid Dynamics",
-        "Heat Transfer",
-        "Mass Transfer"
-      ]
-    }
-  ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
-  }
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>M. Talha Siddiqui</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  text-align: justify;
+  color: #39424B; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #56817A; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: white;
+  width: 50%;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 22%;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: 100%;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+.resume-content {
+  display: flex;
+  flex-direction: row;
+}
+
+@media print {
+  body {
+    margin: 0; }
+  
+    .page {
+    width: 100%;
+    height: 100%;
+    margin: 5;
+    padding: 36px 0 0px;
+    box-shadow: none; }
+    
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 10px 34px; }
+  
+      .container {
+    page-break-inside: auto; }
+  
+    .work-container .item {
+    page-break-inside: auto; }
+  
+    .fa-external-link {
+    display: none; }
+  
+  .left-column { width: 30%;}
+  .right-column { width: 85%;}
+  
+  @page :first {
+    size: A4;
+    margin: 0 5px 30px 5px !important; }
+  
+  
+  @page {
+    size: A4;
+    margin: 30px 5px 30px 5px; } 
+  }
+
+@media only screen and (max-width: 600px) {
+  body {margin: 0;}
+  .page {width: auto !important;}
+  .resume-content { flex-direction: column-reverse;}
+  .left-column .right-column {
+    order: initial;
+  }
+  .left-column { width: 100%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 900px) {
+  body{margin: 0;}
+  .page {width: auto !important;}
+  .resume-content { flex-direction: column-reverse;}
+  .left-column .right-column {
+    order: initial;
+  }
+  .left-column { width: 100%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1200px) {
+  body{margin: 0;}
+  .page {width: auto !important;}
+  .resume-content { flex-direction: column-reverse;}
+  .left-column .right-column {
+    order: initial;
+  }
+  .left-column { width: 100%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1201px) {
+  .left-column { width: 60%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1300px) {
+  .left-column { width: 39%;}
+  .right-column { width: 100%;}
+}
+
+@media only screen and (max-width: 1500px) {
+  .left-column { width: 39%;}
+  .right-column { width: 100%;}
+}
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
+
+.about-container {
+  text-align: left;
+}
+
+.references-container .fa {
+  font-size: 14px; }
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header pull-left">
+			        <h1>M. Talha Siddiqui</h1>
+			        <h2>Senior Devops Engineer</h2>
+			    </div>
+			    <div class="profile-pic pull-right">
+			        <img src="https://s.gravatar.com/avatar/e995c3c7d4395ab283924b105fc6f2a2?s&#x3D;400" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">Chapal Super Luxury Apartments, Block-13, Gulistan-e-Johar, Karachi<br/>Karachi Pakistan 75290</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-envelope-o"></i>
+					        
+					                <h6 class="info-text">mtalha.dev@gmail.com</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-mobile"></i>
+					        
+					                <h6 class="info-text">(0092) 3122853636</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-desktop"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="https://www.about.me/mtalhas" target="_blank">
+					                        www.about.me/mtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					                        <div class="info-tag-container">
+					                            <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/mtalhas" target="_blank">
+					                                        in/mtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-twitter"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://twitter.com/mdtalhas" target="_blank">
+					                                         mdtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://github.com/mtalhas" target="_blank">
+					                                         mtalhas <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div></section>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Web Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Expert</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Python</h6></li>
+					                            <li><h6>Java</h6></li>
+					                            <li><h6>Javascript</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>DevOps</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Terraform</h6></li>
+					                            <li><h6>AWS</h6></li>
+					                            <li><h6>Azure</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Software Architecture</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Scalability</h6></li>
+					                            <li><h6>Modularity</h6></li>
+					                            <li><h6>Resilience</h6></li>
+					                            <li><h6>API design</h6></li>
+					                            <li><h6>Performance</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Software Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Proficient</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Sustainability</h6></li>
+					                            <li><h6>Portability</h6></li>
+					                            <li><h6>Scalability</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Problem Solving</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Troubleshooting</h6></li>
+					                            <li><h6>Root Cause Analysis</h6></li>
+					                            <li><h6>Debugging</h6></li>
+					                            <li><h6>Optimization</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Draft documentation</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Proficient</h4>
+					                    <ul class="minimal">
+					                            <li><h6>docsify</h6></li>
+					                            <li><h6>Github</h6></li>
+					                            <li><h6>MARP</h6></li>
+					                            <li><h6>Joplin</h6></li>
+					                            <li><h6>MermaidJS</h6></li>
+					                            <li><h6>FormsIO</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Communication</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Competent</h4>
+					                    <ul class="minimal">
+					                            <li><h6>face-2-face</h6></li>
+					                            <li><h6>emails</h6></li>
+					                            <li><h6>presentations</h6></li>
+					                            <li><h6>conference</h6></li>
+					                            <li><h6>buy-in talks</h6></li>
+					                            <li><h6>negotiations</h6></li>
+					                            <li><h6>layman conversions</h6></li>
+					                            <li><h6>1:1s</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					        <ul class="minimal">
+					                <li>
+					                    <h6>Urdu <em>(Native speaker)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>English <em>(Fluent)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        </div>
+					            <section class="item">
+					                    <h4 class="bold">Software based home solutions</h4>
+					                    <ul class="minimal">
+					                            <li>Nextcloud</li>
+					                            <li>Odoo</li>
+					                            <li>Kodi</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Watching documentaries</h4>
+					                    <ul class="minimal">
+					                            <li>TED Talks</li>
+					                            <li>Kurzgesagt - in a nutshell</li>
+					                            <li>UiPath</li>
+					                            <li>Robotic Process Automation</li>
+					                            <li>PBS Space Time</li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>            <p class="summary">
+					                I am an experienced IT services consultant with a strong track record in code development, as well as providing operational support and implementation for various projects. With expertise in API management, Java, and Python, I have delivered custom solutions that meet clients&#x27; unique needs. As a result of my attention to detail and problem-solving skills, I have been able to quickly identify and fix defects and respond to production incidents with ease. Additionally, I possess a background in solution architecture and have a deep understanding of the interplay between technology and business needs. My ability to work with cross-functional teams and collaborate effectively enables me to deliver innovative solutions that drive business success.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Architecture In Motion Inc.
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2017</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Senior Devops Engineer</h4>
+					
+					            <p class="summary">Successfully implemented Layer7 API Management solution and improved client satisfaction. Developed custom solutions, automated testing, and reduced system downtime.</p>
+					
+					            <ul>
+					                <li>Led successful implementation of Layer7 API Management solution for a financial institution, resulting in improved system performance and increased client satisfaction.</li>
+					                <li>Developed custom solutions in Python and Java, automate testing and reduce defects, resulting in reduction of system downtime.</li>
+					                <li>Managed Jira workflows and tickets to improve efficiency and increase productivity, resulting in increase of team output.</li>
+					                <li>Responded to production incidents and fixed defects within tight deadlines, resulting in a high resolution rate within the SLA timeframes.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Architecture In Motion Inc.
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2016</span>
+					                        <span class="endDate"> - 08/2017</span>
+					                </h5>
+					            </div>
+					            <h4>API-M Support Consultant</h4>
+					
+					            <p class="summary">Supervised troubleshooting of production issues and renewed infrastructure with software patches. Automated routine tasks using Bash and API Gateway scripting, boosting productivity and efficiency.</p>
+					
+					            <ul>
+					                <li>Supervised troubleshooting of production issues and renewed infrastructure with software patches.</li>
+					                <li>Automated routine tasks via Bash and API Gateway scripting for boosting personnel productivity and organization efficiency.</li>
+					                <li>Directed System Administration tasks for the Linux environment and deployed software on Production and Lower Environments.</li>
+					                <li>Setup and off-box application logs to syslog servers.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        GeekUnit Private Limited
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2015</span>
+					                        <span class="endDate"> - 08/2015</span>
+					                </h5>
+					            </div>
+					            <h4>FrontEnd Web Developer</h4>
+					
+					            <p class="summary">Designed and developed user-friendly web interfaces and implemented new features on existing applications. Collaborated with designers and developers to ensure seamless integration and optimized web page load times through efficient coding practices.</p>
+					
+					            <ul>
+					                <li>Designed and developed responsive and user-friendly web interfaces for multiple clients</li>
+					                <li>Implemented new features and functionality on existing web applications using HTML, CSS, and JavaScript</li>
+					                <li>Collaborated with UI/UX designers and backend developers to ensure seamless integration of front-end and back-end code</li>
+					                <li>Optimized web page load times through efficient coding practices and image optimization techniques</li>
+					                <li>Developed and maintained a component library to improve code reusability and consistency</li>
+					                <li>Utilized version control tools such as Git to manage code changes and collaborate with other developers</li>
+					                <li>Kept up-to-date with industry trends and best practices to continuously improve skills and stay current with emerging technologies</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container projects-container">
+					    <div class="title">
+					        <h3>Projects</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        GoRightFleet XP Project - June 2024
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">04/2024</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed a detailed technical design document outlining system architecture, data flow, and integration points, ensuring a clear roadmap for development.</li>
+					                <li>As a business analyst, collaborated closely with developers to ensure alignment between business objectives and technical implementation. Facilitated regular meetings with the development team to discuss progress, address technical challenges, and provide guidance on best practices.</li>
+					                <li>Played a pivotal role in bridging the gap between business stakeholders and technical teams, ensuring successful implementation of the Admin Portal &amp; Mirlin Connect web applications on time and within budget.</li>
+					                <li>Took charge of creating test cases and leading the Quality Assurance (QA) efforts for the Admin Portal and Mirlin Connect web applications. Oversaw the testing process, identified defects, and worked with the development team to ensure high-quality deliverables.</li>
+					                <li>Created and maintained projects and their queries in Azure Devops and collaborated with cross-functional teams to continuously track and report project velocity, burndown, cycle time, bugs and enhancements.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Metrolinx Phase I &amp; II Projects
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2021</span>
+					                        <span class="endDate"> - 12/2022</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed a variety of APIs to interact with backend systems such as fetching tweets from Twitter accounts and retrieving weather data from AccuWeather. These APIs greatly enhanced data accessibility for clients and enabled more streamlined data processing.</li>
+					                <li>Designed and implemented a reverse proxy API to support a new microservices-based architecture for Railway Management System. Increased overall system flexibility and enabling the adoption of new technologies.</li>
+					                <li>Worked closely with clients to identify and prioritize requirements, resulting in the delivery of multiple successful solutions.</li>
+					                <li>Developed a custom, low-code security solution to monitor and mitigate potential threats, ensuring the safety and integrity of sensitive data.</li>
+					                <li>Designed and executed extensive test cases in both Postman and Apache JMeter, identifying and resolving multiple critical issues prior to production deployment.</li>
+					                <li>Quickly and effectively troubleshooted issues in production, reducing downtime and minimizing the impact on end-users.</li>
+					                <li>Collaborated with cross-functional teams to continuously improve system performance, security and scalability, resulting in increased efficiency and customer satisfaction.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        PCFinancial Phoenix Project
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2019</span>
+					                        <span class="endDate"> - 01/2020</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed Layer7 API Gateway-based services to provide secure APIs for PCFinancial.</li>
+					                <li>Designed high-level architecture for the APIs, considering factors such as scalability, reliability, and maintainability.</li>
+					                <li>Worked closely with cross-functional teams including developers, testers, and business analysts to understand their requirements and ensure successful implementation of the APIs.</li>
+					                <li>Implemented CI/CD pipelines to automate the deployment process, allowing for faster and more frequent releases.</li>
+					                <li>Conducted thorough testing of the APIs using tools such as Postman and Apache JMeter, ensuring high quality and performance.</li>
+					                <li>Leveraged Kubernetes and OpenShift to deploy the APIs and maintain the infrastructure as code.</li>
+					                <li>Followed Secure Software Development LifeCycle practices to ensure the security of the APIs and protect against cyber threats.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Loblaw Enterprise &amp; Identity Access Management Project
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2017</span>
+					                        <span class="endDate"> - 06/2018</span>
+					                </h5>
+					            </div>
+					
+					
+					            <ul>
+					                <li>Developed and implemented policies for securing REST APIs using Layer7 API Gateway, resulting in increased protection against cyber attacks and improved compliance with industry standards.</li>
+					                <li>Collaborated with cross-functional teams to design and deploy microservices architecture, leveraging Layer7 API Gateway and other tools to ensure scalability and high availability of the services.</li>
+					                <li>Designed and implemented custom authentication and authorization policies using Layer7 API Gateway, enabling seamless integration with identity management systems and improving the overall security posture of the organization.</li>
+					                <li>Created and maintained documentation related to API development, policy management and infrastructure design, ensuring that stakeholders had access to accurate and up-to-date information.</li>
+					                <li>Worked with the development team to troubleshoot issues related to API policies and infrastructure, providing timely support and solutions to keep the services up and running smoothly.</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container certificates-container">
+					    <div class="title">
+					        <h3>Certifications</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Broadcom
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="date">09/2023</span>
+					                        </h5>
+					            </div>
+					            <h4>Certified Expert, API Management Implementation 2023 </h4>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Broadcom
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="date">09/2023</span>
+					                        </h5>
+					            </div>
+					            <h4>Proven Professional, API Management Implementation 2023 </h4>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Broadcom
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="date">01/2018</span>
+					                        </h5>
+					            </div>
+					            <h4>Proven Professional, API Management Implementation 2018 </h4>
+					        </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Muhammad Ali Jinnah University
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2017</span>
+					                        <span class="endDate"> - 12/2018</span>
+					                </h5>
+					            </div>
+					            <h4>Masters Computer Science (MSCS)</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Data Warehousing and Mining</li>
+					                <li>Distributed Systems</li>
+					                <li>Design Patterns</li>
+					                <li>Network Simulation</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Muhammad Ali Jinnah University
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2015</span>
+					                        <span class="endDate"> - 12/2016</span>
+					                </h5>
+					            </div>
+					            <h4>Masters Computer Science (MCS)</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Object Oriented Programming</li>
+					                <li>Mobile Computing</li>
+					                <li>Software Architecture</li>
+					                <li>Operating Systems</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        NEDUET
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2010</span>
+					                        <span class="endDate"> - 12/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Bachelors Polymer &amp; Petrochemicals</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Polymer Engineering</li>
+					                <li>Fluid Dynamics</li>
+					                <li>Heat Transfer</li>
+					                <li>Mass Transfer</li>
+					            </ul>
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
