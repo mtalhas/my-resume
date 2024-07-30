@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "M. Talha Siddiqui",
-    "label": "Senior Devops Engineer",
+    "label": "Software Specialist",
     "picture": "https://s.gravatar.com/avatar/e995c3c7d4395ab283924b105fc6f2a2?s=400",
     "email": "mtalha.dev@gmail.com",
     "emailLink": "mailto:mtalha.dev@gmail.com",
     "phone": "(0092) 3122853636",
     "website": "https://www.about.me/mtalhas",
-    "summary": "I am an experienced Devops Engineer with a strong track record in code development, as well as providing operational support and implementation for various projects. With expertise in Python, ASP.NET, Javascript and API Management, I have delivered custom solutions that meet clients' unique needs. As a result of my attention to detail and problem-solving skills, I have been able to quickly identify and fix defects and respond to production incidents with ease. Additionally, I possess a background in solution architecture and have a deep understanding of the interplay between technology and business needs. My ability to work with cross-functional teams and collaborate effectively enables me to deliver innovative solutions that drive business success.",
+    "summary": "I am an experienced Services Consultant with a strong track record in code development, as well as providing operational support and implementation for various projects. With expertise in Python, ASP.NET, Javascript and API Management, I have delivered custom solutions that meet clients' unique needs. As a result of my attention to detail and problem-solving skills, I have been able to quickly identify and fix defects and respond to production incidents with ease. Additionally, I possess a background in solution architecture and have a deep understanding of the interplay between technology and business needs. My ability to work with cross-functional teams and collaborate effectively enables me to deliver innovative solutions that drive business success.",
     "location": {
       "address": "Chapal Super Luxury Apartments, Block-13, Gulistan-e-Johar, Karachi",
       "postalCode": "75290",
@@ -46,7 +46,7 @@
       "summary": "Successfully implemented API Management solutions, Azure AI Services and improved client satisfaction. Developed custom solutions, automated testing, and reduced system downtime.",
       "highlights": [
         "Leading the architecture and implementation of a secure realtime chatbot solution using Azure AI Bot Service along with Azure Cognitive Services.",
-		"Led successful implementation of Layer7 API Management solution for a financial institution, resulting in improved system performance and increased client satisfaction.",
+		    "Led successful implementation of Layer7 API Management solution for a financial institution, resulting in improved system performance and increased client satisfaction.",
         "Developed custom solutions in Python and Java, automate testing and reduce defects, resulting in reduction of system downtime.",
         "Managed Jira workflows and tickets to improve efficiency and increase productivity, resulting in increase of team output.",
         "Responded to production incidents and fixed defects within tight deadlines, resulting in a high resolution rate within the SLA timeframes."
