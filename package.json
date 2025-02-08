@@ -2,7 +2,8 @@
   "scripts": {
     "serve-theme": "node ./node_modules/resume-cli/build/main.js serve --theme",
     "export-html-theme": "node ./node_modules/resume-cli/build/main.js export resume.html --format html --theme",
-    "export-pdf-theme": "node ./node_modules/resume-cli/build/main.js export resume.pdf --format pdf --theme"
+    "export-pdf-theme": "node ./node_modules/resume-cli/build/main.js export resume.pdf --format pdf --theme",
+    "export-docx-theme": "node export-docx-puppeteer.js"
   },
   "devDependencies": {
     "jsdom": "^16.3.0",
@@ -26,6 +27,8 @@
     "underscore.string": "^3.3.5"
   },
   "dependencies": {
+    "cheerio": "^1.0.0",
+    "docx": "^9.1.1",
     "puppeteer": "^13.5.1"
   }
 }
